@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   array = []
   holiday_hash.each do |season, data|
-    array.push(season)
+    puts "#{season.Capitilize}:"
     data.each do |holiday, supply|
       array << supply
     end
