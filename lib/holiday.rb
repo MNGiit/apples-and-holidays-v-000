@@ -67,8 +67,8 @@ def all_supplies_in_holidays(holiday_hash)
   array = []
   holiday_hash.each do |season, data|
     array.push(season)
-    season.each do |holiday, data|
-      array << data
+    data.each do |holiday, supply|
+      array << supply
     end
   end
   array
