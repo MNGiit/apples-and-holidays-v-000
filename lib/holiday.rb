@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
       array.push(data)
     end
   end
-  array.flatten
+  array
 end
 
 def all_holidays_with_bbq(holiday_hash)
